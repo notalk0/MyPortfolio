@@ -172,30 +172,34 @@ a {
             margin: auto;
         }
 
-        div {
-            width: 150px;
-            height: 150px;
-            background: $color4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50%;
-            cursor: pointer;
+        a {
+            color: $color1;
 
-            a {
-                color: $color1;
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+            }
 
-                img {
-                    max-width: 100%;
-                    height: auto;
-                    display: block;
+            div {
+                width: 150px;
+                height: 150px;
+                background: $color4;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                cursor: pointer;
+
+                &:hover {
+                    background: $color3;
                 }
             }
-
-            &:hover {
-                background: $color3;
-            }
         }
+
+
+
+
     }
 
 }

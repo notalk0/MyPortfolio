@@ -185,7 +185,17 @@ a {
   }
 }
 
-#contact .contact div {
+#contact .contact a {
+  color: #ebebe3;
+}
+
+#contact .contact a img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#contact .contact a div {
   width: 150px;
   height: 150px;
   background: #c19898;
@@ -202,17 +212,7 @@ a {
   cursor: pointer;
 }
 
-#contact .contact div a {
-  color: #ebebe3;
-}
-
-#contact .contact div a img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-#contact .contact div:hover {
+#contact .contact a div:hover {
   background: #4a4a48;
 }
 
